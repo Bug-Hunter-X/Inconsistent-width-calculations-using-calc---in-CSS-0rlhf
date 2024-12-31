@@ -1,0 +1,1 @@
+The following CSS code results in unexpected behavior in some browsers: .element { width: calc(100% - 20px); }  This is because the `calc()` function can sometimes misinterpret the units involved. If the parent element doesn't have an explicitly defined width, the calculation might not work as expected.
